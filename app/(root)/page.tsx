@@ -11,6 +11,8 @@ export default function Home() {
         <li>Item 5</li>
         <li>Item 6</li>
         <li>Item 7</li>
+        <li>Item 8</li>
+        <li>Item 9</li>
       </ul>
     </main>
   );
