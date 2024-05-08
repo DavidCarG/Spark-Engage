@@ -10,7 +10,7 @@ export const connectToDatabase = async () => {
   }
 
   if (!MONGODB_URI) {
-    throw new Error("MONGODB_URI is missing");
+    throw new Error("Please enter a mongodb uri");
   }
 
   cached.promise =
